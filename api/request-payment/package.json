@@ -1,0 +1,19 @@
+{
+  "name": "request-payment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsx src/main/main.ts"
+  },
+  "keywords": [],
+  "author": "thiagofo92@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.2.3",
+    "tsx": "^3.12.7",
+    "typescript": "^5.0.4",
+    "vitest": "^0.31.1"
+  }
+}
