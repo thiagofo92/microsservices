@@ -1,4 +1,4 @@
-const FakeResponsePaymentBill = {
+export const FakeResponsePaymentBill = {
   "id": "or_56GXnk6T0eU88qMm",
   "code": "YV3RCRIN24",
   "amount": 3090,
