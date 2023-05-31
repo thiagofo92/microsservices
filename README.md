@@ -1,2 +1,2 @@
 # microsservices
-Use case of simple e-commerce study micros services
+Use case of simple e-commerce to study micros services
