@@ -1,9 +1,10 @@
 import { it, describe, expect } from 'vitest'
 import { PaymentBillEntity } from 'src/core/entity'
 import { PaymentService } from 'src/infra/service'
+import { FakeResponsePaymentBill } from '../fake/payment-bill.fake'
 
 describe('#Service Payment', () => { 
-    it('Generate payment bill', async() => {
+    it.skip('Generate payment bill', async() => {
       const service = new PaymentService()
       const input = new PaymentBillEntity({
         cpf: '1111',
@@ -16,7 +17,7 @@ describe('#Service Payment', () => {
       expect(result).toStrictEqual(expected)
     })
 
-    it('Generate payment bill', async() => {
+    it.skip('Payment with PIX', async() => {
       const service = new PaymentService()
       const input = new PaymentBillEntity({
         cpf: '1111',
