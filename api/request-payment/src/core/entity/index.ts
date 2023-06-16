@@ -1,2 +1,4 @@
-export * from './payment-bill.entity'
-export * from './card.entity'
+export * from './address.entity'
+export * from './client.entity'
+export * from './credit-card.entity'
+export * from './product.entity'
